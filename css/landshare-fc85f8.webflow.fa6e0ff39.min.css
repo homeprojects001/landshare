@@ -2061,8 +2061,8 @@ blockquote {
 }
 .button {
   color: #fff;
-  background-color: #61cd81;
-  border: 1px solid #61cd81;
+  background-color: var(--light-green);
+  border: 1px solid var(--light-green);
   border-radius: 100px;
   justify-content: center;
   align-items: center;
@@ -2078,7 +2078,7 @@ blockquote {
 .button-2 {
   color: #fff;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 100px;
   flex-wrap: nowrap;
   justify-content: center;
@@ -2093,7 +2093,7 @@ blockquote {
   display: flex;
 }
 .button-3 {
-  background-color: #61cd81;
+  background-color: var(--light-green);
   border-radius: 100px;
   flex-direction: row;
   justify-content: center;
@@ -2183,7 +2183,7 @@ blockquote {
 }
 .button-4 {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
   border-radius: 100px;
   margin-top: 40px;
   padding: 13px 24px;
@@ -2215,14 +2215,14 @@ blockquote {
   display: flex;
 }
 .paragraph-3 {
-  color: #47534f;
+  color: var(--text);
   margin-top: 12px;
   margin-bottom: 0;
   font-size: 16px;
   line-height: 24px;
 }
 .common_sub_para {
-  color: #535458;
+  color: var(--text-light);
   max-width: 588px;
   margin-top: 12px;
   margin-bottom: 0;
@@ -2312,7 +2312,7 @@ blockquote {
   display: flex;
 }
 .div-block-9.bg_white {
-  background-color: #fff;
+  background-color: var(--theme);
 }
 .div-block-9.bg_white.w_221 {
   max-width: 221px;
@@ -2324,7 +2324,7 @@ blockquote {
   max-width: 198px;
 }
 .div-block-9.bg_white-copy {
-  background-color: #fff;
+  background-color: var(--theme);
 }
 .div-block-9.bg_white-copy.w_221 {
   max-width: 221px;
@@ -2473,7 +2473,7 @@ blockquote {
   padding: 0;
 }
 .div-block-12 {
-  background-color: #61cd81;
+  background-color: var(--light-green);
   border-radius: 12px;
   width: 44%;
   height: 4px;
@@ -2491,7 +2491,7 @@ blockquote {
   margin-top: 20px;
 }
 .chip-text{
-  color: var(--black) !important;
+  color: var(--text-light) !important;
 }
 .div-block-13 {
   background: var(--theme) ;
@@ -2523,7 +2523,7 @@ blockquote {
   display: flex;
 }
 .div-block-14.bg-white {
-  background-color: #fff;
+  background-color: var(--theme);
   width: auto;
   min-width: auto;
   max-width: none;
@@ -2546,7 +2546,7 @@ blockquote {
   right: auto;
 }
 .card_para {
-  color: #535458;
+  color: var(--text-light);
   max-width: 306px;
   min-height: 60px;
   margin-top: 12px;
@@ -2880,8 +2880,8 @@ blockquote {
 }
 .common_btn {
   color: #fff;
-  background-color: #61cd81;
-  border: 1px solid #61cd81;
+  background-color: var(--light-green);
+  border: 1px solid var(--light-green);
   border-radius: 100px;
   justify-content: center;
   align-items: center;
@@ -2895,7 +2895,7 @@ blockquote {
   display: flex;
 }
 .common_btn:hover {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #fff;
 }
 .common_btn.mobile_btn {
@@ -3061,7 +3061,7 @@ blockquote {
   position: relative;
 }
 .get_btn {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: rgba(255, 255, 255, 0);
   margin-bottom: 0;
   padding: 0 5px 0 8px;
@@ -3074,15 +3074,15 @@ blockquote {
 }
 .whitepaper_btn {
   color: #fff;
-  background-color: #61cd81;
-  border: 1px solid #61cd81;
+  background-color: var(--light-green);
+  border: 1px solid var(--light-green);
   border-radius: 100px;
   padding: 13px 24px;
   font-weight: 700;
   line-height: 22px;
 }
 .whitepaper_btn:hover {
-  color: #61cd81;
+  color: var(--light-green);
 }
 .main_heading {
   color: var(--text);
@@ -3152,15 +3152,15 @@ blockquote {
 }
 .get_started_btns {
   color: #fff;
-  background-color: #61cd81;
-  border: 1px solid #61cd81;
+  background-color: var(--light-green);
+  border: 1px solid var(--light-green);
   border-radius: 100px;
   padding: 13px 24px;
   font-weight: 700;
   line-height: 22px;
 }
 .get_started_btns:hover {
-  color: #61cd81;
+  color: var(--light-green);
 }
 .div-block-26-copy {
   justify-content: space-around;
@@ -3226,7 +3226,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 13px 24px;
@@ -3236,7 +3236,7 @@ blockquote {
 }
 .button-6:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .image-61 {
   width: 38px;
@@ -3312,7 +3312,7 @@ blockquote {
   display: flex;
 }
 .button-7 {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #f0faf9;
   border-radius: 50px;
   width: 28px;
@@ -3452,7 +3452,7 @@ blockquote {
   position: relative;
 }
 .footer_links:hover {
-  color: #61cd81;
+  color: var(--light-green);
   font-weight: 400;
 }
 .footer_links.altlinks-2.pe_0 {
@@ -3589,8 +3589,8 @@ blockquote {
 }
 .button-copy {
   color: #fff;
-  background-color: #61cd81;
-  border: 1px solid #61cd81;
+  background-color: var(--light-green);
+  border: 1px solid var(--light-green);
   border-radius: 100px;
   justify-content: center;
   align-items: center;
@@ -3606,7 +3606,7 @@ blockquote {
 .button-2-copy {
   color: #fff;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 100px;
   flex-wrap: nowrap;
   justify-content: center;
@@ -3678,7 +3678,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 13px 24px;
@@ -3688,7 +3688,7 @@ blockquote {
 }
 .button-10:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .text-block {
   font-family: Inter Tight, sans-serif;
@@ -3757,7 +3757,7 @@ blockquote {
   display: flex;
 }
 .button-11 {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #f0faf9;
   border-radius: 50px;
   width: 28px;
@@ -4059,7 +4059,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 13px 24px;
@@ -4069,7 +4069,7 @@ blockquote {
 }
 .button-14:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .div-block-32 {
   padding-top: 100px;
@@ -4081,7 +4081,7 @@ blockquote {
   display: flex;
 }
 .button-15 {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #f0faf9;
   border-radius: 50px;
   width: 28px;
@@ -4375,7 +4375,7 @@ blockquote {
   padding-left: 0;
 }
 .button-19 {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #f0faf9;
   border-radius: 50px;
   width: 28px;
@@ -4443,7 +4443,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 13px 24px;
@@ -4453,7 +4453,7 @@ blockquote {
 }
 .button-20:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .paragraph-31 {
   margin-bottom: 0;
@@ -4918,9 +4918,9 @@ blockquote {
 }
 .text-field {
   outline-offset: 0px;
-  color: #111;
+  color: var(--text);
   background-color: transparent;
-  border: 0 solid #000;
+  border: 0 solid var(--text-light);
   border-radius: 50px;
   outline: 0 transparent;
   margin-bottom: 0;
@@ -5025,7 +5025,7 @@ blockquote {
   right: auto;
 }
 .button-23 {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #f0faf9;
   border-radius: 50px;
   width: 28px;
@@ -5069,7 +5069,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 13px 24px;
@@ -5080,7 +5080,7 @@ blockquote {
 }
 .button-24:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .slide-5 {
   background-color: transparent;
@@ -5492,7 +5492,7 @@ blockquote {
   display: none;
 }
 .line_first {
-  background-color: #61cd81;
+  background-color: var(--light-green);
   border-radius: 12px;
   width: 100%;
   height: 4px;
@@ -5557,7 +5557,7 @@ blockquote {
 }
 .image-84-copy {
   border-radius: 16px;
-  width: 100%;
+  width: 90%;
   max-width: 100%;
   max-height: 268px;
   margin-left: auto;
@@ -5575,7 +5575,7 @@ blockquote {
   line-height: 40px;
 }
 .paragraph-39-copy {
-  color: #47534f;
+  color: var(--text-light);
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 32px;
@@ -6756,7 +6756,7 @@ blockquote {
 }
 .next {
   background-color: #fff;
-  border-color: #61cd81;
+  border-color: var(--light-green);
   border-radius: 100px;
   justify-content: center;
   align-items: center;
@@ -7045,7 +7045,7 @@ blockquote {
 .view_detail_btn {
   color: #000;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 100px;
   margin-top: 20px;
   margin-bottom: 24px;
@@ -7056,7 +7056,7 @@ blockquote {
 }
 .view_detail_btn:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .icon-circle {
   background-color: #fff;
@@ -8052,7 +8052,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 13px 24px;
@@ -8062,7 +8062,7 @@ blockquote {
 }
 .button-25:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .card_1-4 {
   background-color: #fff;
@@ -8107,7 +8107,7 @@ blockquote {
   line-height: 22px;
 }
 .button-28 {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #f0faf9;
   border-radius: 50px;
   width: 28px;
@@ -8197,7 +8197,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 11px 18px;
@@ -8207,7 +8207,7 @@ blockquote {
 }
 .button-29:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .button-30 {
   color: #fff;
@@ -8244,7 +8244,7 @@ blockquote {
   line-height: 22px;
 }
 .button-32 {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #f0faf9;
   border-radius: 50px;
   width: 28px;
@@ -8408,7 +8408,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 13px 24px;
@@ -8419,7 +8419,7 @@ blockquote {
 }
 .button-33:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .rightdown-2 {
   z-index: 50;
@@ -8590,7 +8590,7 @@ blockquote {
   height: 16px;
 }
 .button-34 {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #f0faf9;
   border-radius: 50px;
   width: 28px;
@@ -8665,7 +8665,7 @@ blockquote {
   position: relative;
 }
 .green_txt-2 {
-  color: #61cd81;
+  color: var(--light-green);
   padding-left: 10px;
   font-size: 14px;
   line-height: 15px;
@@ -8795,7 +8795,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 11px 18px;
@@ -8805,7 +8805,7 @@ blockquote {
 }
 .button-39:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .image-168 {
   width: 16px;
@@ -8833,7 +8833,7 @@ blockquote {
   line-height: 16px;
 }
 .button-40 {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #f0faf9;
   border-radius: 50px;
   width: 28px;
@@ -8867,7 +8867,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 13px 24px;
@@ -8878,7 +8878,7 @@ blockquote {
 }
 .button-41:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .card_15-3 {
   background-color: #fff;
@@ -9038,7 +9038,7 @@ blockquote {
   height: 16px;
 }
 .button-42 {
-  color: #61cd81;
+  color: var(--light-green);
   text-align: center;
   background-color: #f0faf9;
   border-radius: 50px;
@@ -9236,7 +9236,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 11px 18px;
@@ -9246,7 +9246,7 @@ blockquote {
 }
 .button-47:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .image-187 {
   width: 16px;
@@ -9268,7 +9268,7 @@ blockquote {
   margin: 27px 10px;
 }
 .button-48 {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #f0faf9;
   border-radius: 50px;
   width: 28px;
@@ -9290,7 +9290,7 @@ blockquote {
   height: 20px;
 }
 .button-49 {
-  color: #61cd81;
+  color: var(--light-green);
   text-align: center;
   background-color: #f0faf9;
   border-radius: 50px;
@@ -9431,7 +9431,7 @@ blockquote {
   overflow: hidden;
 }
 .button-50 {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #f0faf9;
   border-radius: 50px;
   width: 28px;
@@ -9540,7 +9540,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 13px 24px;
@@ -9551,7 +9551,7 @@ blockquote {
 }
 .button-52:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .paragraph-79 {
   margin-bottom: 0;
@@ -9666,7 +9666,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 11px 18px;
@@ -9676,7 +9676,7 @@ blockquote {
 }
 .button-56:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .paragraph-82 {
   color: var(--text);
@@ -9719,7 +9719,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 13px 24px;
@@ -9730,7 +9730,7 @@ blockquote {
 }
 .button-57:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .rightdown-3 {
   z-index: 50;
@@ -9917,7 +9917,7 @@ blockquote {
   display: block;
 }
 .button-58 {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #f0faf9;
   border-radius: 50px;
   width: 28px;
@@ -10142,7 +10142,7 @@ blockquote {
   color: var(--text);
   text-align: center;
   background-color: transparent;
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 50px;
   width: 50%;
   padding: 11px 18px;
@@ -10152,7 +10152,7 @@ blockquote {
 }
 .button-63:hover {
   color: #fff;
-  background-color: #61cd81;
+  background-color: var(--light-green);
 }
 .image-225 {
   width: 16px;
@@ -10176,7 +10176,7 @@ blockquote {
   padding-right: 10px;
 }
 .button-64 {
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #f0faf9;
   border-radius: 50px;
   width: 28px;
@@ -10890,8 +10890,8 @@ blockquote {
 }
 .button-get-started {
   color: #fff;
-  background-color: #61cd81;
-  border: 1px solid #61cd81;
+  background-color: var(--light-green);
+  border: 1px solid var(--light-green);
   border-radius: 100px;
   justify-content: center;
   align-items: center;
@@ -11083,7 +11083,7 @@ blockquote {
 }
 .button-67:hover {
   box-shadow: inset 0 0 20px -7px var(--light-green);
-  color: #61cd81;
+  color: var(--light-green);
   background-color: #fff;
 }
 .button-67:active {
@@ -11154,7 +11154,7 @@ blockquote {
   right: 0;
 }
 .small_heading-txt-copy {
-  color: var(--black);
+  color: var(--text-light);
   margin-top: 0;
   margin-bottom: 0;
   font-family: Inter Tight, sans-serif;
@@ -11242,7 +11242,7 @@ blockquote {
 }
 .div-block-396 {
   background-color: #fff;
-  border: 2px solid #61cd81;
+  border: 2px solid var(--light-green);
   border-radius: 20px;
   justify-content: center;
   width: 100%;
@@ -11253,7 +11253,7 @@ blockquote {
   display: flex;
 }
 .div-block-397 {
-  border-right: 2px solid #61cd81;
+  border-right: 2px solid var(--light-green);
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -12229,7 +12229,7 @@ blockquote {
   display: none;
 }
 .text-block-67 {
-  color: #535458;
+  color: var(--text-light);
   max-width: 80%;
   margin-top: 12px;
 }
@@ -12268,7 +12268,7 @@ blockquote {
   display: block;
 }
 .stobox {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12287,7 +12287,7 @@ blockquote {
 }
 .chainlink,
 .plume {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12304,7 +12304,7 @@ blockquote {
   display: none;
 }
 .swiplux {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12317,7 +12317,7 @@ blockquote {
   display: none;
 }
 .ix-swap {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12340,7 +12340,7 @@ blockquote {
   display: flex;
 }
 .lumishare {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12357,7 +12357,7 @@ blockquote {
   display: none;
 }
 .saving-dao {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12373,7 +12373,7 @@ blockquote {
   display: none;
 }
 .exodus {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12390,7 +12390,7 @@ blockquote {
   display: none;
 }
 .rwa-finance {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12407,7 +12407,7 @@ blockquote {
   display: none;
 }
 .questn {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12424,7 +12424,7 @@ blockquote {
   display: none;
 }
 .intract {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12442,7 +12442,7 @@ blockquote {
   display: none;
 }
 .taskon {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12459,7 +12459,7 @@ blockquote {
   display: none;
 }
 .gateio {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12476,7 +12476,7 @@ blockquote {
   display: none;
 }
 .mexc {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12493,7 +12493,7 @@ blockquote {
   display: none;
 }
 .bingx {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12528,7 +12528,7 @@ blockquote {
   display: none;
 }
 .pancakeswap {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12545,7 +12545,7 @@ blockquote {
   display: none;
 }
 .cmc {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12562,7 +12562,7 @@ blockquote {
   display: none;
 }
 .coingecko {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12579,7 +12579,7 @@ blockquote {
   display: none;
 }
 .dappradar {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12633,7 +12633,7 @@ blockquote {
 }
 .white_btn_box-2 {
   background-color: rgba(255, 255, 255, 0);
-  border: 1px solid #61cd81;
+  border: 1px solid var(--light-green);
   border-radius: 100px;
   justify-content: center;
   align-items: center;
@@ -12798,7 +12798,7 @@ blockquote {
 }
 @media screen and (min-width: 1280px) {
   .button {
-    border: 1px solid #61cd81;
+    border: 1px solid var(--light-green);
   }
   .heading-2-copy-copy {
     font-size: 54px;
@@ -12866,7 +12866,7 @@ blockquote {
     width: 95%;
   }
   .button-copy {
-    border: 1px solid #61cd81;
+    border: 1px solid var(--light-green);
   }
   .div-block-102 {
     width: 453px;
@@ -13832,7 +13832,7 @@ blockquote {
     overflow: hidden;
   }
   .button-get-started {
-    border: 1px solid #61cd81;
+    border: 1px solid var(--light-green);
   }
   .collection-list-wrapper-3 {
     margin-left: 0;
@@ -14025,7 +14025,7 @@ blockquote {
     background-size: 100% 100%;
   }
   .cardcircle {
-    background-color: #61cd81;
+    background-color: var(--light-green);
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -16689,7 +16689,7 @@ blockquote {
     height: 42px;
   }
   .view_detail_btn {
-    color: #61cd81;
+    color: var(--light-green);
     border-style: none;
     margin-top: 12px;
     margin-bottom: 0;
@@ -19249,7 +19249,7 @@ blockquote {
     display: none;
   }
   .view_detail_btn {
-    color: #61cd81;
+    color: var(--light-green);
     border-style: none;
     margin-top: 12px;
     margin-bottom: 12px;
@@ -20848,7 +20848,7 @@ blockquote {
   }
   .list-item-11 {
     background-color: #fff;
-    border: 1px solid #61cd81;
+    border: 1px solid var(--light-green);
     border-radius: 90px;
     flex-direction: row;
     justify-content: center;
@@ -22373,7 +22373,7 @@ blockquote {
     height: 41px;
   }
   .view_detail_btn {
-    color: #61cd81;
+    color: var(--light-green);
     border-style: none;
     margin-top: 12px;
     margin-bottom: 0;
@@ -24067,10 +24067,10 @@ blockquote {
     transition: box-shadow 0.3s;
   }
   .button-67:hover {
-    color: #61cd81;
+    color: var(--light-green);
     -webkit-text-stroke-color: #333;
     background-color: #fff;
-    box-shadow: inset 0 0 20px -7px #61cd81;
+    box-shadow: inset 0 0 20px -7px var(--light-green);
   }
   .left-arrow-17 {
     right: 25%;
@@ -24111,7 +24111,7 @@ blockquote {
     border-top-right-radius: 10px;
   }
   .tabs-menu-7 {
-    background-color: #61cd81;
+    background-color: var(--light-green);
     width: 100%;
     padding-top: 6px;
     padding-left: 2.5%;
