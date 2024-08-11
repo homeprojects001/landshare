@@ -6,6 +6,7 @@
   --text-light: #e2dfdb;
   --black: rgba(0, 0, 0, 0.8);
   --light-green: #61cd81;
+  --logo: black;
 }
 html {
   -webkit-text-size-adjust: 100%;
@@ -2867,7 +2868,7 @@ blockquote {
   cursor: pointer;
 }
 .nav_main {
-  background-color: var(--theme);
+  background-color: var(--logo);
   border-radius: 90px;
   justify-content: center;
   align-items: center;
@@ -2876,7 +2877,7 @@ blockquote {
   padding-left: 17px;
   padding-right: 17px;
   display: flex;
-  box-shadow: 6px 0 16px rgba(160, 167, 195, 0.08);
+  /* box-shadow: 6px 0 16px rgba(160, 167, 195, 0.08); */
 }
 .common_btn {
   color: #fff;
@@ -3023,6 +3024,8 @@ blockquote {
   cursor: pointer;
   width: 56px;
   max-width: 100%;
+  border: .25px solid gray;
+  border-radius: 100%;
 }
 .navbars-2 {
   z-index: 100;
@@ -3528,7 +3531,7 @@ blockquote {
 }
 .footer {
   background-color: var(--theme);
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   padding: 64px 20px;
@@ -3549,7 +3552,7 @@ blockquote {
 }
 .div-block-98 {
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 0;
   padding-bottom: 0;
   display: flex;
@@ -12250,6 +12253,18 @@ blockquote {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin-bottom: 40px;
 }
+.w-layout-grid.grid-15 div {
+  border-radius: 300px;
+  cursor: pointer;
+   transition: all 0.3s;
+  
+}
+.w-layout-grid.grid-15 div img:nth-child(1) {
+  filter: brightness(0) invert(1);
+}
+.w-layout-grid.grid-15 div:hover {
+  transform: translateY(-5px);
+}
 .image-268 {
   text-align: left;
   vertical-align: baseline;
@@ -12517,7 +12532,7 @@ blockquote {
   display: none;
 }
 .bitmart {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   flex-flow: column;
   justify-content: center;
@@ -12845,6 +12860,7 @@ blockquote {
   }
   .div-block-13 {
     max-height: 277px;
+    min-width: 325px;
   }
   .hero_section {
     background-position: 50%;
@@ -20761,6 +20777,7 @@ blockquote {
     height: 64px;
     min-height: 64px;
     padding-top: 0;
+    background: var(--black) !important; 
   }
   .image-59.closes {
     display: block;
@@ -24720,4 +24737,9 @@ gap:10px
     flex-direction: column;
   }
 
+}
+
+.mobile_nav a img {
+border:.25px solid gray; 
+border-radius: 100%;
 }
