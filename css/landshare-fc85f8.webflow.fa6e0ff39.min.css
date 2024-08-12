@@ -14043,8 +14043,7 @@ blockquote {
     margin-top: 0;
   }
   .div-block-13 {
-    background-color: transparent;
-    background-image: url(https://cdn.prod.website-files.com/649664b4d452680d2964b449/64966affa7ae30b783cc0b47_Subtract.webp);
+    background-color: var(--theme);
     background-position: 0 0;
     background-size: 100% 100%;
   }
@@ -24743,3 +24742,36 @@ gap:10px
 border:.25px solid gray; 
 border-radius: 100%;
 }
+.div-block-418{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+.text-center {
+  text-align: center;
+}
+.partners {
+  display: flex;
+  justify-content: center;
+  
+}
+.partner {
+  margin-top: 20px;
+  padding: 20px;
+  background: var(--theme);
+  display: flex;
+  gap:10px;
+  border-radius:300px;
+}
+.partner_logo {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap:5px 
+}
+.partner_logo img {
+  height: 30px;
+  width: 30px;
+} 
