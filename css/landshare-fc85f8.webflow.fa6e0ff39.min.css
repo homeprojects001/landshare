@@ -1,6 +1,6 @@
 :root {
-  --theme: #181a1b;
-  --theme-light: #1c1f20;
+  --theme: #060606;
+  --theme-light: #000000;
   --caption: #aea79c;
   --text: #fff;
   --text-light: #e2dfdb;
@@ -2360,7 +2360,7 @@ blockquote {
   margin-bottom: 0;
   font-family: Inter Tight, sans-serif;
   font-size: 54px;
-  line-height: 68px;
+  line-height: 57px;
 }
 .sub_heading.text_center {
   margin-top: 10px;
@@ -2503,9 +2503,7 @@ blockquote {
   align-items: center;
   width: 100%;
   max-width: 368px;
-  height: 200px;
-  min-height: 200px;
-  max-height: 250px;
+height: 355px;
   margin-top: 0;
   margin-left: auto;
   margin-right: 20px;
@@ -2558,7 +2556,6 @@ blockquote {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 129px;
   display: flex;
 }
 .div-block-16 {
@@ -2586,7 +2583,7 @@ blockquote {
   grid-row-gap: 10px;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 64px;
+  margin-top: 150px;
   display: flex;
 }
 .image-7 {
@@ -2845,9 +2842,11 @@ blockquote {
 }
 .link-block-5 {
   text-align: center;
-  width: 56px;
   max-width: 100%;
-  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
 }
 .list-8 {
   justify-content: flex-end;
@@ -3022,10 +3021,10 @@ blockquote {
 .navbar_logo {
   text-align: left;
   cursor: pointer;
-  width: 56px;
+  /* width: 42px; */
+  height: 25px;
   max-width: 100%;
-  border: 0.25px solid gray;
-  border-radius: 100%;
+  /* border-radius: 100%; */
 }
 .navbars-2 {
   z-index: 100;
@@ -10289,7 +10288,7 @@ blockquote {
   width: 75%;
 }
 .accordion-item {
-  background-color: var(--theme-light);
+  background-color: var(--theme);
   border-radius: 10px;
   margin-bottom: 20px;
   padding: 24px 30px 14px;
@@ -10306,7 +10305,7 @@ blockquote {
   display: flex;
 }
 .icon.accordion-icon {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--text);
   cursor: pointer;
   font-size: 32px;
   line-height: 30px;
@@ -10326,7 +10325,7 @@ blockquote {
   width: 15px;
 }
 .section-faq-3 {
-  background-color: var(--theme);
+  background-color: var(--theme-light);
   /* margin-bottom: 60px; */
   padding: 60px 30px;
 }
@@ -12857,7 +12856,7 @@ blockquote {
     padding-right: 0;
   }
   .div-block-13 {
-    max-height: 277px;
+    /* max-height: 277px; */
     min-width: 325px;
   }
   .hero_section {
@@ -13860,7 +13859,7 @@ blockquote {
     margin-left: 0;
   }
   .body_container {
-    height: 750px;
+    /* height: 750px; */
   }
   .card1 {
     left: -475px;
@@ -14228,7 +14227,8 @@ blockquote {
     padding-left: 32px;
   }
   .div-block-142-copy {
-    height: 100%;
+    height: 420px;
+    /* min-height: 326px; */
   }
   .image-58 {
     width: 140px;
@@ -14860,7 +14860,8 @@ blockquote {
   }
   .body_container {
     justify-content: center;
-    height: 750px;
+    height: auto;
+    margin: 90px 0;
   }
   .desktop_container {
     width: 100%;
@@ -20773,7 +20774,7 @@ blockquote {
     height: 64px;
     min-height: 64px;
     padding-top: 0;
-    background: var(--black) !important;
+    background: var(--theme-light) !important;
   }
   .image-59.closes {
     display: block;
@@ -20887,7 +20888,7 @@ blockquote {
     display: flex;
   }
   .navbar_logo {
-    max-width: 44%;
+    /* max-width: 44%; */
   }
   .div-block-85 {
     justify-content: flex-end;
@@ -22454,11 +22455,12 @@ blockquote {
   .hero_main {
     background-color: var(--theme-light);
     height: 100%;
-    min-height: 750px;
+    min-height: auto;
     max-height: 870px;
-    padding-top: 162px;
+    padding-top: 116px;
     display: block;
-    top: -75%;
+    /* top: -75%; */
+    margin-bottom: 40px;
   }
   .btns_box {
     flex-direction: row;
@@ -24081,7 +24083,7 @@ blockquote {
     right: auto;
   }
   .body_container {
-    height: 550px;
+    height: auto;
   }
   .section-11 {
     padding-top: 40px;
@@ -24734,16 +24736,13 @@ blockquote {
   }
 }
 
-.mobile_nav a img {
-  border: 0.25px solid gray;
-  border-radius: 100%;
-}
+
 .div-block-418 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 150px;
+  margin-bottom: 40px;
 }
 .text-center {
   text-align: center;
@@ -24776,4 +24775,49 @@ blockquote {
 }
 .footer {
   overflow: hidden;
+}
+
+/* Custom */
+
+
+
+
+link-block-5.w-inline-block a {
+    color: var(--text) !important;
+}
+
+
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  gap: 6px;
+  background: rgb(255,255,255);
+  background: linear-gradient(165deg, rgba(79,79,79,1) 0%, rgba(176,176,176,1) 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size:26px
+}
+header#section-1 {
+  border-bottom: 3px solid #060606;
+}
+p.common_para.hero-text {
+  font-size:20px;
+}
+.howcard-img {
+  width: 100%;
+  max-width:150px;
+}
+
+.social-icon{
+  height: 20px;
+  width:20px;
+}
+img.hero-img {
+  width: 500px;
+}
+.feature-card img {
+  height: 320px;
 }
